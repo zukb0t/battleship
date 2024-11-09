@@ -1,0 +1,16 @@
+.gameboards{
+    height:500px;
+    background-color:pink;
+    display:flex;
+    justify-content:space-around;
+}
+
+#gameboard-computer, #gameboard-human{
+    display:grid;
+    grid-template-columns: repeat(10,50px);
+    grid-template-rows: repeat(10,50px);
+}
+
+.square{
+    border: 2px solid whitesmoke;
+}
